@@ -115,9 +115,11 @@ Page Portofolio
 #gallery li a p {
     margin:0;
     padding: 5%;
-    font-size: 0.80em;
+    font-size: 0.9em;
     color:#bdc37c;
+    font-weight:bold;
 }
+
 
 /******************************
 PAGE ABOUT
