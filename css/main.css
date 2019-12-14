@@ -135,7 +135,6 @@ PAGE HOME
  }
 
 .btn{
-    background-color: #6ab47b;
     border-radius: 6px;
     color: black;
     text-align: center;
@@ -268,5 +267,8 @@ nav a.selected, nav a:hover{
     color: #32673f;
 }
 
-
+/* Button */
+.btn {
+    background-color: #6ab47b;
+}
 
