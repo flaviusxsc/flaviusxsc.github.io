@@ -187,8 +187,61 @@ Page Portofolio
     color:#bdc37c;
     font-weight:bold;
 }
-
-
+/* OFFSET  */
+.offset{
+    position: relative;
+}
+.project {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position:absolute;
+    top:50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .offset:hover .project {
+    opacity: 0.3;
+  }
+  
+  .offset:hover .middle {
+    opacity: 1;
+  }
+  .btn-demo{
+  font-size:1.3em;
+  font-weight: bold;
+  color: #599a68;
+  padding: 0.2em;
+  margin: 0 2em;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  }
+.btn-demo:hover{
+      color: #32673f;
+  }
+.btn-code{
+font-size:1.3em;
+font-weight: bold;
+color: #599a68;
+padding: 0.2em;
+letter-spacing: 2px;
+ text-transform: uppercase;
+}
+.btn-code:hover{
+    color: #32673f;
+}
+    
+  
 /******************************
 PAGE ABOUT
 ******************************/
@@ -239,7 +292,7 @@ body{
 /* green header*/
 header {
     background:#6ab47b;
-    border-color: #599a68
+    border-color: #599a68;
 }
 
 /* logo text*/
@@ -271,11 +324,4 @@ nav a.selected, nav a:hover{
 .btn {
     background-color: #6ab47b;
 }
-/* Media Query */
-@media only screen and (max-width: 600px) {
-    nav a {
-        font-weight:800;
-        padding:15px 7px;
-    
-    }
-  }
+

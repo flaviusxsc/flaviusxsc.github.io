@@ -12,6 +12,7 @@ float: left;
 width: 40%;
 float: right;
  }
+ 
 
 }
 
@@ -21,6 +22,13 @@ PORTOFOLIO
 
 #gallery li:nth-child(4n) {
     clear: left;
+}
+.middle{
+    display: flex;
+    margin: 0 1em;
+} 
+.btn-demo{
+margin:0;
 }
 
 /******************************
@@ -64,5 +72,18 @@ header{
     border-bottom: 5px solid #599a68;
     margin-bottom: 60px;
 }
-    
+nav a {
+    font-weight:800;
+    padding:15px 7px;
+
+}    
+}
+
+@media screen and (min-width:360px) {
+/******************************
+HEADER
+******************************/
+nav ul{
+    margin:0;
+}
 }
