@@ -271,4 +271,11 @@ nav a.selected, nav a:hover{
 .btn {
     background-color: #6ab47b;
 }
-
+/* Media Query */
+@media only screen and (max-width: 600px) {
+    nav a {
+        font-weight:800;
+        padding:15px 7px;
+    
+    }
+  }
