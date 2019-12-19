@@ -94,6 +94,7 @@ footer {
     margin:0 5px;
 }
 
+
 /******************************
 PAGE HOME
 ******************************/
@@ -279,6 +280,14 @@ margin: 0 0 10px;
     background-image: url('../img/twitter.png');
 }
 
+/******************************
+ANIMATIONS
+******************************/
+.grow:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
 /******************************
 COLORS
 ******************************/
