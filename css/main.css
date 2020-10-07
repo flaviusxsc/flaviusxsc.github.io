@@ -185,6 +185,7 @@ a .btn {
     font-size: 1em;
     line-height:3.5em;
     letter-spacing: 0.2em;
+    border-style: none;
 }
 
 /******************************
@@ -216,6 +217,10 @@ Page Portofolio
 .offset{
     position: relative;
 }
+.offset img {
+    height:200px;
+}
+
 .project {
     opacity: 1;
     display: block;
