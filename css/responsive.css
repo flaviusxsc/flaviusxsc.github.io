@@ -20,8 +20,12 @@ float: right;
 PORTOFOLIO
 ******************************/
 
-#gallery li:nth-child(4n) {
+/* #gallery li:nth-child(4n) {
     clear: left;
+} */
+#gallery li {
+    width:80%;
+    
 }
 .middle{
     display: flex;
@@ -77,6 +81,13 @@ nav a {
     padding:15px 7px;
 
 }    
+/******************************
+PORTOFOLIO
+******************************/
+#gallery li {
+    width:45%;
+    
+}
 }
 
 @media screen and (min-width:360px) {
